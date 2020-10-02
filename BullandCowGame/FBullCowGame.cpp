@@ -27,9 +27,9 @@ int32 FBullCowGame::GetMaxTries() const
 void FBullCowGame::Reset() //Add more words to the table
 {		
 	// Add words here
-	const TArray<FString> HIDDEN_WORD = { "snake", "loca" }; //this must be an isogram
+	const TArray<FString> HIDDEN_WORD = { "snake", "locas" }; //this must be an isogram
 	
-	uint64_t randNum = 0 + (std::rand() % (HIDDEN_WORD.size() - 0 + 1));
+	uint64_t randNum = 0 + (std::rand() % ((HIDDEN_WORD.size() - 1) - 0 + 1));
 
 	MyHiddenWord = HIDDEN_WORD[randNum];
 	
