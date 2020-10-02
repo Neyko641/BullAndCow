@@ -1,0 +1,11 @@
+Debug/
+Release/
+*.suo
+/BullAndCowGame/Debug
+/BullAndCowGame/Release
+*.rar
+*.db
+*.ipch
+*.db-shm
+*.db-wal
+*.opendb

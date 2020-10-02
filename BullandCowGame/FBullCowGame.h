@@ -16,13 +16,12 @@ struct FBullCowCount {
 
 enum class EGuessStatus
 {
-	Invalid_Status,
+	INVALID_STATUS,
 	OK,
-	Invalid_Symbol,
-	Wrong_Length,
-	Not_isogram,
-	Not_Lowercase
-
+	INVALID_SYMBOL,
+	WRONG_LEN,
+	NOT_ISOGRAM,
+	NOT_LOWERCASE
 };
 
 class FBullCowGame {
@@ -37,9 +36,9 @@ public:
 	void Reset(); 
 	
 	//Provide a method for counting Bulls and Cows, and incrementing term number!
-	
 	FBullCowCount SubmitValidGuess(FString);
 private:
+	
 	//See Constructor for initialization.
 	int32 MyCurrentTry;
 	int32 MyMaxTries;
