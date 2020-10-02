@@ -1,5 +1,0 @@
-﻿  FBullCowGame.cpp
-  main.cpp
-  Generating Code...
-a:\udemy\section 2\section_2\bullandcowgame\fbullcowgame.cpp(59): warning C4715: 'FBullCowGame::IsIsogram': not all control paths return a value
-  BullandCowGame.vcxproj -> A:\Udemy\Section 2\Section_2\Debug\BullandCowGame.exe
