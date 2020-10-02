@@ -1,0 +1,6 @@
+Debug/
+Release/
+.vs/
+/BullAndCowGame/Debug
+/BullAndCowGame/Release
+*.rar
