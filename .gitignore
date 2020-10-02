@@ -1,6 +1,8 @@
 Debug/
 Release/
-.vs/
+*.suo
 /BullAndCowGame/Debug
 /BullAndCowGame/Release
 *.rar
+*.db
+*.ipch
